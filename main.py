@@ -92,7 +92,7 @@ def get_response(prompt, api_key):
 
     body = str.encode(json.dumps(data))
 
-    url = 'https://Phi-3-small-8k-instruct-tjzmz.eastus2.models.ai.azure.com/v1/chat/completions'
+    url = 'https://Phi-3-small-8k-instruct-ygbal.eastus2.models.ai.azure.com/chat/completions'
     headers = {'Content-Type': 'application/json', 'Authorization': ('Bearer ' + api_key)}
 
     req = urllib.request.Request(url, body, headers)
